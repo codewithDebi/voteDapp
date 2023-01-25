@@ -82,7 +82,7 @@ function Register() {
 
     return (
         <div className='bg-vote-300 p-4 rounded-md shadow-xl'>
-            <p className='text-2xl mb-12 font-bold'>Contestant's Registration</p>
+            <p className='text-2xl mb-12 font-bold'>Contestant Registration</p>
             <div>
                 <form onSubmit={handleSubmit(registerContestant)}>
                     <div className='mb-4'>
